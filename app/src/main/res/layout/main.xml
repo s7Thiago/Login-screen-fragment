@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:padding="10dp"
+	android:animateLayoutChanges="true"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<FrameLayout
+		android:animateLayoutChanges="true"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_margin="10dp"
+		android:background="#12CBD2"
+		android:id="@+id/mainFrameLayoutContainer"/>
+	
+	<Button
+		android:animateLayoutChanges="true"
+		android:layout_below="@+id/mainFrameLayoutContainer"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Revelar Login"
+		android:id="@+id/mainButtonActivityFragment"/>
+
+</RelativeLayout>
+
